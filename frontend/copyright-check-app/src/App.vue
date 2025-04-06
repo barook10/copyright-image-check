@@ -99,3 +99,82 @@ export default {
 }
 </script>
 
+<style>
+/* Basic Reset */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headers */
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Upload Section */
+.upload-section {
+  margin: 30px 0;
+  text-align: center;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Results */
+.result-section {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  margin: 10px 0;
+}
+
+.verdict {
+  font-weight: bold;
+  margin: 10px 0;
+  color: #4CAF50;
+}
+
+.verdict.infringed {
+  color: #f44336;
+}
+
+/* Loading and Error States */
+.loading {
+  color: #666;
+  font-style: italic;
+}
+
+.error {
+  color: #f44336;
+  margin: 10px 0;
+}
+</style>
